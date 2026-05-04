@@ -1,0 +1,135 @@
+*{
+	scroll-behavior: smooth;
+}
+
+.baneri{
+	background-color: lightblue;
+	background-image: url("images/background.webp");
+	background-size: cover	;
+	text-align: center	;
+	padding: 100px 50px ;
+	background-attachment: fixed;
+
+}
+
+.satauri a{
+	color: white;
+	text-decoration: none;
+	font-size: 50px;
+	font-family: impact;
+}
+
+.qvesatauri a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: "BPG Banner QuadroSquare Caps";
+}
+
+.gilaki a {
+	color: black;
+	text-decoration: none;
+	font-size: 50px;
+	background-color: white;
+	font-family: "BPG Banner QuadroSquare Caps";
+	padding: 20px;
+}
+
+.gilaki {
+	margin-top: 50px;
+}
+
+.menu li a {
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: impact;
+}
+
+.menu {
+	text-align: center;
+	width: 30%;
+	margin: auto; /* center */
+}
+
+.menu ul li {
+	list-style-type: none;
+	background-color: lightblue;
+	padding: 20px;
+	margin: 10px;
+	width: 90%;
+}
+
+.menu ul li:hover{
+	background-color: lightgreen;
+	border-bottom-color: red;
+	border-bottom-style: solid;
+	cursor: help;
+}
+
+.wavy {
+	width: 50%;
+	margin: auto;
+  border-shape: shape(from 0 calc(100% - 25px),curve to 4.69% calc(100% - 15.5px) with 3.13% calc(100% - 21px),curve to 7.81% calc(100% - 16px) with 6.25% calc(100% - 10px),curve to 10.94% calc(100% - 16.5px) with 9.38% calc(100% - 22px),curve to 14.06% calc(100% - 20.5px) with 12.5% calc(100% - 11px),curve to 17.19% calc(100% - 33px) with 15.63% calc(100% - 30px),curve to 20.31% calc(100% - 18.5px) with 18.75% calc(100% - 36px),curve to 23.44% calc(100% - 21.5px) with 21.88% calc(100% - 1px),curve to 26.56% calc(100% - 42.5px) with 25% calc(100% - 42px),curve to 29.69% calc(100% - 45.5px) with 28.13% calc(100% - 43px),curve to 32.81% calc(100% - 32.5px) with 31.25% calc(100% - 48px),curve to 35.94% calc(100% - 27.5px) with 34.38% calc(100% - 17px),curve to 39.06% calc(100% - 31.5px) with 37.5% calc(100% - 38px),curve to 42.19% calc(100% - 30.5px) with 40.63% calc(100% - 25px),curve to 45.31% calc(100% - 21.5px) with 43.75% calc(100% - 36px),curve to 48.44% calc(100% - 24.5px) with 46.88% calc(100% - 7px),curve to 51.56% calc(100% - 29px) with 50% calc(100% - 42px),curve to 54.69% calc(100% - 30px) with 53.13% calc(100% - 16px),curve to 57.81% calc(100% - 37.5px) with 56.25% calc(100% - 44px),curve to 60.94% calc(100% - 34.5px) with 59.38% calc(100% - 31px),curve to 64.06% calc(100% - 36px) with 62.5% calc(100% - 38px),curve to 67.19% calc(100% - 17.5px) with 65.63% calc(100% - 34px),curve to 70.31% calc(100% - 24.5px) with 68.75% calc(100% - 1px),curve to 73.44% calc(100% - 41px) with 71.88% calc(100% - 48px),curve to 76.56% calc(100% - 27.5px) with 75% calc(100% - 34px),curve to 79.69% calc(100% - 26.5px) with 78.13% calc(100% - 21px),curve to 82.81% calc(100% - 30.5px) with 81.25% calc(100% - 32px),curve to 85.94% calc(100% - 34.5px) with 84.38% calc(100% - 29px),curve to 89.06% calc(100% - 31px) with 87.5% calc(100% - 40px),curve to 92.19% calc(100% - 24px) with 90.63% calc(100% - 22px),curve to 95.31% calc(100% - 18px) with 93.75% calc(100% - 26px),curve to 100% calc(100% - 25px) with 96.88% calc(100% - 10px));
+  border: 8px solid blue;
+
+}
+
+.infoBox{
+	background-color: lightgrey;
+	width: 40%;
+	border-radius: 10px;
+	padding: 50px;
+	margin: auto;
+}
+
+.boxTitle{
+	font-size: 40px;
+	font-family: cursive;
+}
+
+.info {
+	font-size: 30px;
+	font-family: consolas;
+	line-height: 35px;
+	text-align: justify;
+}
+
+footer{
+	text-align: center	;
+	background-color: lightgrey;
+	padding: 30px;
+
+}
+
+.regBox{
+	width: 40%;
+	margin: auto;
+	padding: 30px;
+	background-color: lightgrey;
+	border-radius: 10px;
+}
+
+.regTitle{
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: impact;
+	text-align: center;
+}
+
+.form input[type=text], input[type=email], input[type=password]{
+	width: 90%;
+	padding: 10px;
+	font-size: 25px;
+	font-style: italic;
+	font-family: calibri;
+	color: green;
+}
+
+.form input[type=submit]{
+	width: 50%;
+	background-color: green;
+
+
+}
